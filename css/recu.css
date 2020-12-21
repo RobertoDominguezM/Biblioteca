@@ -37,3 +37,7 @@ body{
     margin-left: 5%;
     margin-right: 5%;
 }
+
+.rojo:invalid{
+    border: 2px red dashed;
+}
