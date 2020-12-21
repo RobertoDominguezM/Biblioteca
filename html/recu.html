@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/recu.css" rel="stylesheet">
+        <script src="../scripts/recu.js"></script>
+        <title>Práctica recuperación</title>
+    </head>
+    <body>
+        <div id="titulo">
+            <h1>Biblioteca</h1>
+        </div>
+        <div id="form">
+            <form>
+                <p>
+                    Literatura
+                    <select name="literatura">
+                        <option></option>
+                        <option>Infantil</option>            
+                        <option>Juvenil</option>
+                        <option>Adulta</option>
+                    </select>
+                </p>
+                <p>
+                    Nombre del libro <input type="text" placeholder="Nombre del libro" required>
+                </p>
+                <p>
+                    Identificador <input type="text" placeholder="EJ: _111:1111A" pattern="[_][0-9]{3}[:][0-9]{4}[A-Z]{1}" required>
+                </p>
+                <p>
+                    (Falta poner solo año)
+                    Año de publicación <input type="date" required>
+                </p>
+                <p>
+                    Número de copias <input type="number" max="99" min="1" required>
+                </p>
+                <div id="infantil">
+                    <p>
+                        Edad recomendada <input type="number" min="1" max="10" required>
+                    </p>
+                    <p>
+                        Observaciones <textarea placeholder="Escriba sus observaciones" maxlength="150" required></textarea>
+                    </p>
+                    <p>
+                        <input type="submit" placeholder="Enviar">
+                    </p>
+                </div>  
+            </form>
+        </div>
+        <div id="seccionLibros">
+            <form>
+                <p>
+                    Literatura
+                    <select name="literatura">
+                        <option></option>
+                        <option>Infantil</option>            
+                        <option>Juvenil</option>
+                        <option>Adulta</option>
+                    </select>
+                </p>
+                <p>
+                    Nombre del libro <input type="text" placeholder="Nombre del libro" required>
+                </p>
+                <p>
+                    Identificador <input type="text" placeholder="EJ: _111:1111A" pattern="[_][0-9]{3}[:][0-9]{4}[A-Z]{1}" required>
+                </p>
+                <p>
+                    (Falta poner solo año)
+                    Año de publicación <input type="date" required>
+                </p>
+                <p>
+                    Número de copias <input type="number" max="99" min="1" required>
+                </p>
+                <div id="infantil">
+                    <p>
+                        Edad recomendada <input type="number" min="1" max="10" required>
+                    </p>
+                    <p>
+                        Observaciones <textarea placeholder="Escriba sus observaciones" maxlength="150" required></textarea>
+                    </p>
+                    <p>
+                        <input type="submit" placeholder="Enviar">
+                    </p>
+                </div>  
+            </form>
+        </div>
+        <div id="seccionAviso">
+            <p>
+                sdfghjndfjhasdog
+                asfdgdkjfghiadshgiuashdg
+                asdgkashdoiyaghdafjg
+                dfghdfkjfghkjdsfhguhdfiugyhagras
+                dghasdkjghkasdfhgpadiuygfasg
+                dagdsfffffffffffffffffffffffffffffffffffffffhjjjsdghdsugaehrngdf
+            </p>
+        </div>
+    </body>
+</html>

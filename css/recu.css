@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(152, 255, 255);
+}
+#titulo{
+    border: 2px black solid;
+    background-color: rgb(253, 251, 122);
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+}
+
+#form{
+    border: 2px black solid;
+    float: left;
+    background-color: rgb(255, 162, 162);
+    width: 39%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#seccionLibros{
+    border: 2px black solid;
+    float: right;
+    background-color:rgb(255, 162, 162);
+    width: 39%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#seccionAviso{
+    border: 2px black solid;
+    clear: both;
+    background-color: rgb(253, 251, 122);
+    margin-left: 5%;
+    margin-right: 5%;
+}
