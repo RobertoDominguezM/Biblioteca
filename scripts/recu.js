@@ -1,5 +1,6 @@
 window.addEventListener("load", () => {
     document.getElementById("literatura").addEventListener("change",escogerInfantil);
+    document.getElementById("seccionLibros").addEventListener("imprimir", imprimirFormulario, false);
 }, false);
 
 function escogerInfantil(){
